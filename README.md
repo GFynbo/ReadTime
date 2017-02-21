@@ -5,13 +5,13 @@ ReadTime takes into account the headings and pictures within the article and est
 
 Future Ideas
 ---------------
-> Add a share article Button
-> Add options for how to calculate time (ex. Do Not Include Picture Time)
-> Allow users to have a timer so they can see how long it actually takes them
+> * Add a share article Button
+> * Add options for how to calculate time (ex. Do Not Include Picture Time)
+> * Allow users to have a timer so they can see how long it actually takes them
 
 Sources
 ---------------
-> https://en.wikipedia.org/wiki/Words_per_minute
-> Gavin Fynbo
+> * https://en.wikipedia.org/wiki/Words_per_minute
+> * Gavin Fynbo
 
 &copy; Gavin Fynbo &mdash; 2017
