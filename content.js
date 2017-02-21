@@ -21,6 +21,7 @@ function calculate() {
   //console.log(ps);
   var arrayOfStrings = ps.split(' ');
   var timeWords = arrayOfStrings.length;
+  var timeWordsBefore = timeWords;
 
   var images = document.getElementsByTagName("img");
   for(var i = 0; i < images.length; i++) {
@@ -29,7 +30,7 @@ function calculate() {
 
   var timeToReadMins = Math.floor(timeWords / 180);
   var timeToReadSecs = Math.ceil(((timeWords % 180) / 180) * 60);
-  var timeTotal = "<p>" + timeToReadMins + " minutes " + timeToReadSecs + " seconds.</p><p>" + timeWords + " words.</p>";
+  var timeTotal = "<p>" + timeToReadMins + " minutes " + timeToReadSecs + " seconds.</p><p>" + timeWordsBefore + " words.</p>";
 
   console.log(timeTotal);
   return timeTotal;
